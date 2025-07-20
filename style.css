@@ -1,0 +1,63 @@
+:root {
+  --text-color: rgb(255, 0, 0);
+  --primery-color: #000000;
+  --secondry-color: green;
+  --text-background: #0b0b0b;
+}
+
+body {
+  background-color: var(--primery-color);
+  color: var(--text-color);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.federer {
+  margin: 80px auto 10px auto;
+  width: fit-content;
+  border-radius: 100%;
+  overflow: hidden;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.aboutme {
+  margin-top: 60px;
+  background-color: var(--text-background);
+  width: 600px;
+  border-radius: 30px;
+  font-size: larger;
+  color: rgb(254, 2, 2);
+}
+
+.khat {
+  margin-top: 60px;
+  background-color: var(--text-background);
+  width: 600px;
+  border-radius: 30px;
+  font-size: larger;
+  color: rgb(254, 2, 2);
+}
+
+.tirak > img {
+  border-radius: 30px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: black;
+    --primery-color: #8f88f6;
+    --secondry-color: rgb(181, 237, 181);
+  }
+}
