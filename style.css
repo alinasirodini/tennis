@@ -1,5 +1,5 @@
 :root {
-  --text-color: rgb(255, 0, 0);
+  --text-color: rgb(254, 2, 2);
   --primery-color: #000000;
   --secondry-color: green;
   --text-background: #0b0b0b;
@@ -13,8 +13,34 @@ body {
   box-sizing: border-box;
 }
 
+.main {
+  padding: 0px 70px;
+}
+
+h1 {
+  padding: 0px 20px;
+  margin-top: 40px;
+}
+
+.bibi {
+  border-radius: 30px;
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding: 130px;
+}
+
+.bibi > img {
+  filter: invert();
+}
+
+.panahi {
+  height: 100vh;
+}
+
 .federer {
-  margin: 80px auto 10px auto;
+  margin: 80px auto 0px auto;
   width: fit-content;
   border-radius: 100%;
   overflow: hidden;
@@ -23,13 +49,33 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: top;
 }
 
 .big {
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 1px;
+  color: white;
+  align-items: center;
+}
+
+.rob {
+  color: rgb(238, 238, 0);
+}
+
+.green {
+  color: rgb(0, 129, 0);
+}
+
+.honoros {
+  background-color: var(--text-background);
+  width: 600px;
+  border-radius: 30px;
+  font-size: larger;
+  color: rgb(0, 129, 0);
+  padding: 50px 20px;
 }
 
 .aboutme {
@@ -38,7 +84,8 @@ body {
   width: 600px;
   border-radius: 30px;
   font-size: larger;
-  color: rgb(254, 2, 2);
+  color: rgb(255, 0, 0);
+  padding: 50px 20px;
 }
 
 .khat {
@@ -47,11 +94,79 @@ body {
   width: 600px;
   border-radius: 30px;
   font-size: larger;
-  color: rgb(254, 2, 2);
+  color: rgb(0, 12, 245);
+  padding: 50px 20px;
 }
 
 .tirak > img {
   border-radius: 30px;
+}
+
+.ali > img {
+  border-radius: 30px;
+  height: 230px;
+  width: 280px;
+  margin: auto;
+}
+
+.ali {
+  margin: 90px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  row-gap: 80px;
+  padding: 100px;
+}
+
+.yaroo {
+  color: rgb(0, 0, 255);
+}
+
+.contact-us {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+}
+
+.contact-us > div {
+  flex: 1;
+}
+
+.contact-us > div:last-child > input,
+.contact-us > div:last-child > div > input,
+.contact-us > div:last-child > textarea {
+  border-radius: 20px;
+  padding: 15px 20px;
+}
+
+.contact-us > div:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-us > div:last-child > div {
+  display: flex;
+  gap: 5px;
+}
+
+.contact-us > div:last-child > div > input {
+  flex: 1;
+}
+
+.filmi {
+  display: flex;
+  gap: 50px;
+}
+
+.filmi > img {
+  border-radius: 10px;
 }
 
 @media (prefers-color-scheme: dark) {

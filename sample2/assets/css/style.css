@@ -5,16 +5,14 @@
 }
 
 * {
-  background-color: var(--primeryColor);
-  color: var(--textColor);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  color: #fff;
-  background: #353353;
+  background-color: var(--primeryColor);
+  color: var(--textColor);
 }
 
 /* استایل هی آیکن */
